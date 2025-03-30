@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: white;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    
+    /* width: 100%; */
+    /* background-color: red; */
+    background-image: url('/images/background.jpg');
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff1d;
+    border-radius: 10px;
+    backdrop-filter: blur(2px); /* Glass blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff4b5c;
+  }
+  
+  /* Create/Join Room */
+  .room-section {
+    margin: 50px 0;
+  }
+  
+  .room-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-btn, .join-btn {
+    background-color: #ff4b5c;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .create-btn:hover, .join-btn:hover {
+    background-color: #e03e50;
+  }
+  
+  .join-room input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    margin-right: 5px;
+  }
+  
+  /* Benefits Section */
+  .benefits {
+    background-color: #16213e;
+    padding: 50px 20px;
+  }
+  
+  .benefits h2 {
+    margin-bottom: 30px;
+  }
+  
+  .benefits-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .benefit-card {
+    background: #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    padding: 50px 20px;
+  }
+  
+  .reviews-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .review-card {
+    background: #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #0f3460;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
