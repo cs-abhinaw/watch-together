@@ -1,3 +1,3 @@
 import { io } from "socket.io-client";
-const socket = io("http://localhost:5000"); // Use your backend URL
+const socket = io("https://watch-together-nrg0.onrender.com"); // Use your backend URL
 export default socket;
