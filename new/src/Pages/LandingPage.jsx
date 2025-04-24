@@ -86,11 +86,11 @@ const LandingPage = () => {
         <div className="reviews-grid">
           <div className="review-card">
             <p>"Amazing experience! Watching movies with friends has never been easier."</p>
-            <h4>- Abhi</h4>
+            <h4>- Ajit </h4>
           </div>
           <div className="review-card">
             <p>"Smooth playback and great UI. Love this platform!"</p>
-            <h4>- Aishu</h4>
+            <h4>- Singh</h4>
           </div>
         </div>
       </section>
