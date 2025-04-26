@@ -338,8 +338,8 @@ function RoomPage() {
             <div style={styles.chatBox} ref={chatBoxRef}>
               {messages.length === 0 ? (
                 <div style={styles.emptyChatMessage}>
-                  Start chatting!
-                </div>
+                  note: play and pause pause is under development.  <br></br>
+                        start your chatting                </div>
               ) : (
                 messages.map((msg, index) => (
                   <div
