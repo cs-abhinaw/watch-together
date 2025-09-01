@@ -120,7 +120,7 @@ function LandingPage() {
             <div style={styles.testimonialAuthor}>
               <div style={styles.authorAvatar}></div>
               <div>
-                <h4 style={styles.authorName}>Ajit Singh</h4>
+                <h4 style={styles.authorName}>Abhi Singh</h4>
                 <p style={styles.authorInfo}>Film Enthusiast</p>
               </div>
             </div>
